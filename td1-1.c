@@ -30,8 +30,7 @@ int main()
 
     le cas 2 est juste le contraire logique du cas 1.
     Le premier else if traite le cas 1 et le dernier else
-    traite le cas 2 qui est le reste de tous les conditions posées avant,
-     celle du premier if et du else if */
+    traite le cas 2 qui est le reste de tous les conditions posées avant. */
     else if (A % 100 == 0 && A % 400 != 0)
     {
         printf("%d n'est pas bisextile\n", A);
