@@ -4,7 +4,6 @@
 
 int main()
 {
-
     float A;
 
     scanf("%f", &A);
