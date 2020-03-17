@@ -2,7 +2,6 @@
 
 int main()
 {
-
     int n;
     scanf("%d", &n);
     int cpt = 1;
