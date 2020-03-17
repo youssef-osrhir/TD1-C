@@ -3,6 +3,7 @@
 int main()
 {
 
+
     int a, b, c, n;
     a = 1;
     b = 1;
