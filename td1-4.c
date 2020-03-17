@@ -2,7 +2,6 @@
 
 int main()
 {
-
     int n;
     int Spair = 0;
     int Simpair = 0;
