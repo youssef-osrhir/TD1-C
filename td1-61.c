@@ -2,6 +2,7 @@
 
 int main()
 {
+   
     int a;
     int i = 1;
     int s = 0;
