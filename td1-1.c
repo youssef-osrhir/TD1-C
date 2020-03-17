@@ -3,6 +3,7 @@
 int main()
 {
 
+
     int A;
     int c = 0;
     /*déclaration de la variable "A" 
