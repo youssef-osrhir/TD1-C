@@ -2,7 +2,6 @@
 
 int main()
 {
-
     int A, i, a, b, c;
     a = 1;
     b = 1;
