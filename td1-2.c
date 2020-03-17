@@ -1,36 +1,39 @@
 #include <stdio.h>
 #include <math.h>
+#define M_PI 3.14159265358979323846
 
 int main()
 {
-    int x, y, r;
-    float Ø;
-    scanf("%d%d", &x, &y);
+    float x, y, theta, r;
+
+    scanf("%f %f", &x, &y);
+
     r = sqrt(x * x + y * y);
 
     if (x > 0)
     {
-        Ø = atan(y / x);
+        theta = atan(y / x);
     }
     else if (x < 0)
     {
-        Ø = atan(y / x) + M_PI;
+        theta = atan(y / x) + M_PI;
     }
-    else if (x == 0)
+    else
     {
         if (y > 0)
         {
-            Ø = M_PI / 2;
+            theta = M_PI / 2;
         }
         else if (y < 0)
         {
-            Ø = -M_PI / 2;
+            theta = -M_PI / 2;
         }
         else
         {
-            Ø = 0;
+            theta = 0;
         }
     }
 
-    printf(" les coordonnes polaires sont: r=%d, et Ø=%f\n", r, Ø);
+    printf(" les coordonnes polaires sont: r = %f, et theta = %f\n", r, theta);
+    //pour avoir le résultat en degrés écrire 180 * theta / M_PI à la place de theta dans printf
 }
