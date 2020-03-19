@@ -12,15 +12,14 @@ int main()
         scanf("%d", &n);
     }
 
-    if (n == 1 || n==4) /*j'ai ajouté le cas 4 car c'est le seul cas ou i serait égale à sqrt(n) après un break de la boucle for,
-                          on aura alors 4 premier alors qu'il ne l'est pass */
+    if (n == 1)
     {
         printf("%d n'est pas premier\n", n);
     }
-    
+
     else
     {
-        for (i = 2; i < sqrt(n); i++)
+        for (i = 2; i <= sqrt(n); i++)
         {
             if (n % i == 0)
             {
@@ -29,7 +28,7 @@ int main()
             }
         }
 
-        if (i >= sqrt(n))
+        if (i > sqrt(n))
         {
             printf("%d est premier\n", n);
         }
