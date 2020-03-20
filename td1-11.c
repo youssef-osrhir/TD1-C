@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+//je vous conseille de vous documenter sur l'algorithme naif de décomposition en nombre premier sur wikipedia ou prime decomposition in english
 
 int main()
 {
