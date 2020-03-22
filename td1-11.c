@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+//je vous conseille de vous documenter sur l'algorithme naif de décomposition en nombre premier sur wikipedia ou prime decomposition in english
 
 int main()
 {
@@ -18,7 +19,7 @@ int main()
     {
         int k;
         /* la boucle for ci-dessous permet de selectionner  
-           les nombres premiers < à la racine de n*/
+           les nombres premiers < ou égale à la racine de n*/
 
         for (k = 2; k < sqrt(i); k++)
         {
@@ -50,5 +51,5 @@ int main()
 
         i++;
     }
-    printf("%d 1\n", n);
+    printf("%d 1\n", n); // on affiche à la fin ce qui reste dans la variable n apres la division par les i sa sera forcément un premier de facteur 1
 }
